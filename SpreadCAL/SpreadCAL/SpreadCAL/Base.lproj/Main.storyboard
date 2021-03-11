@@ -23,9 +23,16 @@
                                     <action selector="didTapButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="XNN-YX-zMw"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CKP-IX-xNP">
-                                <rect key="frame" x="20" y="64" width="350" height="676"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKP-IX-xNP">
+                                <rect key="frame" x="20" y="128" width="350" height="646"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7N-nx-tg0">
+                                <rect key="frame" x="20" y="99" width="350" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -46,11 +53,12 @@
                     <connections>
                         <outlet property="button" destination="OLz-1D-uyA" id="UuW-zW-0T3"/>
                         <outlet property="imageView" destination="CKP-IX-xNP" id="U4w-Ne-xNK"/>
+                        <outlet property="label" destination="i7N-nx-tg0" id="ehz-g9-Njf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="122" y="119"/>
+            <point key="canvasLocation" x="121.53846153846153" y="118.72037914691943"/>
         </scene>
     </scenes>
     <resources>

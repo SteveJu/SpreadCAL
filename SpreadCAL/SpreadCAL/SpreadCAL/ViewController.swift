@@ -11,15 +11,20 @@ class ViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var button: UIButton!
+    @IBOutlet var label: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         imageView.backgroundColor = .secondarySystemBackground
-        
+
         button.backgroundColor = .systemRed
         button.setTitle("Take Picture", for: .normal)
         button.setTitleColor(.white, for: .normal)
+        label.backgroundColor = UIColor.green
+        label.textColor = UIColor.red
+        label.font=UIFont.systemFont(ofSize: 20)
     }
     
     @IBAction func didTapButton(){
